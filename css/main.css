@@ -1,66 +1,30 @@
-.container{
-    width: 80%;
-    margin: 0 auto 0 auto;
-    text-align: center;
+.container {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  text-align: center;
 }
-.profile-img{
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
+.profile-img {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .user {
-    font-size: 20px;
+  font-size: 20px;
 }
 /* >문법: 직계 자식
     space 문법 : 모든 자식
 */
 .navbar li {
-    display: inline-block;
-    width: 60px;
-    text-align: center;
-    background-color: #eee;
-    padding: 10px;
-    border-radius: 5px;
-
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .navbar a {
-    font-size: 26px;
-    text-decoration: none;
-    color: black;
-}
-
-.main-background {
-    width: 100%;
-    height: 500px;
-    background-image: url(../workSpace/assets/charater2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 1px;
-}
-.main-title{
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    /*박스형태의 테두리가 겹쳐져있으면 마진이 같이 움직임 
-      위아래 박스가 겹쳐있어도 일어남 
-    =>margin collapse
-    */
-    margin-top: 50px;
-}
-
-.main-song {
-    color: white;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    list-style-type: none;
-    
-}
-.main-background button{
-    display: block;
-    margin: auto;
-    color: white;
-    background-color: rgba(0,0,0,0);
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
 }
