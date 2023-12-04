@@ -15,6 +15,7 @@ body {
   text-align: center;
 }
 .main-title {
+  padding-top: 10px;
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 40px;
